@@ -1,6 +1,51 @@
-.root {
+:root {
     --font1: 'Rubik', sans-serif;
     --text-menu: #4a4a4a;
-    --page-background: #3CDBC0;
+    --page-background-color: #3CDBC0;
     --text-title: #FFFFFF;
+}
+
+.header {
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+}
+.logo-adalab {
+    width: 155px;
+    display: block;
+    margin: auto;
+
+}
+
+.menu {
+    color: var(--text-menu);
+    font-size: 16px;
+}
+
+.list {
+    font-family: var(--font1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.hero {
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--page-background-color);
+   
+   
+}
+
+.title {
+    font-family: var(--font1);
+    font-size: 30px;
+    color: var(--text-title);
+    width: 100vw;
+    text-align: center;
+    line-height: 50px;
+}
+.title::first-line {
+    word-spacing: 100vw;
 }
