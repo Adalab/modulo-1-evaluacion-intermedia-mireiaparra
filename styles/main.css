@@ -13,6 +13,11 @@
     box-sizing: border-box;
 }
 
+.links {
+    text-decoration: none;
+    color: var(--text-menu);
+}
+
 .logo-adalab {
     width: 155px;
     display: block;
