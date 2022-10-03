@@ -7,13 +7,14 @@
 
 .header {
     width: 100vw;
-    height: 15vh;
-    background-color: black;
+    height: 12.5vh;
+
 }
 .logo-adalab {
     width: 155px;
     display: block;
-    margin: auto;
+    margin: 10px auto;
+    box-sizing: border-box;
 
 }
 
@@ -28,24 +29,28 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 13px;
     
 }
 .hero {
     width: 100vw;
-    height: 50vh;
-    background-color: var(--page-background-color);
-   
-   
+    height: 90vh;
+    background-color: var(--page-background-color); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
     font-family: var(--font1);
     font-size: 30px;
     color: var(--text-title);
-    width: 100vw;
-    text-align: center;
-    line-height: 50px;
-}
-.title::first-line {
+    font-weight: 700;
+    text-align: center; 
+    line-height: 1.2;
     word-spacing: 100vw;
+  
+ 
+  
+    
 }
