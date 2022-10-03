@@ -1,7 +1,7 @@
 :root {
     --font1: 'Rubik', sans-serif;
     --text-menu: #4a4a4a;
-    --page-background-color: #3CDBC0;
+    --page-background: #3CDBC0;
     --text-title: #FFFFFF;
 }
 
@@ -9,7 +9,6 @@
     width: 100vw;
     position: fixed;
     top: 0;
-    z-index: 1;
     background-color: var(--text-title);
     box-sizing: border-box;
 }
@@ -20,25 +19,21 @@
     margin: 10px auto;
 }
 
-.menu {
+.list {
     color: var(--text-menu);
     font-size: 16px;
-}
-
-.list {
     font-family: var(--font1);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     margin-bottom: 13px;
-    box-sizing: border-box;
-    
-}
+    }
+
 .hero {
     width: 100vw;
     height: 100vh;
-    background-color: var(--page-background-color); 
+    background-color: var(--page-background); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +61,6 @@
         margin: 20px 30px;
     }
     .list {
-        font-size: 16px;
         margin: 20px 30px;
     }
 
